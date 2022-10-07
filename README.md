@@ -145,9 +145,9 @@ int main(void)
 ```
 ### Output screen shots :
 
-#### LED ON
-![Screenshot (165)](https://user-images.githubusercontent.com/93901857/194598153-2398550a-2ec9-4962-b516-e01bdd758d86.png)
 #### LED OFF
+![Screenshot (165)](https://user-images.githubusercontent.com/93901857/194598153-2398550a-2ec9-4962-b516-e01bdd758d86.png)
+#### LED ON
 ![Screenshot (166)](https://user-images.githubusercontent.com/93901857/194598143-43b1ecba-0ea4-4f3b-bba2-c3a7bec60589.png)
 #### CIRCUIT DIAGRAM
 ![Screenshot (167)](https://user-images.githubusercontent.com/93901857/194598129-4c23e677-58c0-489e-b3b0-dfe99b8089fe.png)
