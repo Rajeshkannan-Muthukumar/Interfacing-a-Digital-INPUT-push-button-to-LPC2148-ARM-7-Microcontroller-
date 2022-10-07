@@ -116,12 +116,47 @@ Step 9: Select the hex file from the Kiel program folder and import the program 
 
 
 ### Kiel - Program  
+```
+NAME : RAJESHKANNAN M
+REF NO:212221230081
+```
+```
+#include <LPC214x.h>   // define LPC2148 Header file
+#define led (1<<2)     // led macro for pin 2 of port0
+#define sw (1<<10)     // sw macro for pin 10 of port0
+int main(void)
+{
+	unsigned int x;
+	IO0DIR|=(~sw);   // configure P1.24 - P1.31 as input
+	IO0DIR|=led;     // configure P1.16 - P1.23 as output
+	while(1)
+	{
+		x = IOPIN0 & sw;   //save status of sw in variable x
+		if(x==sw)          // if switch open
+		{
+			IOCLR0|=led; // LED off
+		}
+		else               // if switch close
+		{
+			IOSET0 = led;  // LED on
+		}
+	}
+}
+```
+### Output screen shots :
+
+#### LED ON
+![Screenshot (165)](https://user-images.githubusercontent.com/93901857/194598153-2398550a-2ec9-4962-b516-e01bdd758d86.png)
+#### LED OFF
+![Screenshot (166)](https://user-images.githubusercontent.com/93901857/194598143-43b1ecba-0ea4-4f3b-bba2-c3a7bec60589.png)
+#### CIRCUIT DIAGRAM
+![Screenshot (167)](https://user-images.githubusercontent.com/93901857/194598129-4c23e677-58c0-489e-b3b0-dfe99b8089fe.png)
 
 
 ### Result :
 Interfacing a digital output with ARM microcontroller is executed 
 
-### Output screen shots :
+
 
 
 
