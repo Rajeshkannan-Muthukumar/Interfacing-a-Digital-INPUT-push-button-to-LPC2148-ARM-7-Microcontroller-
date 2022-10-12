@@ -146,11 +146,14 @@ int main(void)
 ### Output screen shots :
 
 #### LED OFF
-![Screenshot (165)](https://user-images.githubusercontent.com/93901857/194598153-2398550a-2ec9-4962-b516-e01bdd758d86.png)
+![exp3-1](https://user-images.githubusercontent.com/93901857/195391468-7fd793ee-fb8d-42cf-a006-d83fd7596305.jpg)
+
 #### LED ON
-![Screenshot (166)](https://user-images.githubusercontent.com/93901857/194598143-43b1ecba-0ea4-4f3b-bba2-c3a7bec60589.png)
+![exp3-2](https://user-images.githubusercontent.com/93901857/195391543-33c3afe7-151b-495b-b827-3d6c6c64379d.jpg)
+
 #### CIRCUIT DIAGRAM
-![Screenshot (167)](https://user-images.githubusercontent.com/93901857/194598129-4c23e677-58c0-489e-b3b0-dfe99b8089fe.png)
+![exp3-3](https://user-images.githubusercontent.com/93901857/195391587-2b675472-57e1-4933-804e-3478b4b3333e.jpg)
+
 
 
 ### Result :
